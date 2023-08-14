@@ -1,4 +1,4 @@
-<h1>100days of code challenge in Python</h1>
+<h1>100 days of code challenge in Python</h1>
 Learning Python from Scratch
 
 Started on 31-July-2023
