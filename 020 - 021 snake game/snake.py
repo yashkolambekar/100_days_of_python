@@ -26,6 +26,17 @@ class Snake:
             new_y = self.snake[s_no - 1].ycor()
             self.snake[s_no].goto(new_x, new_y)
         self.snake[0].forward(MOVE_DISTANCE)
+    
+    def add_tail(self):
+        x = self.snake[len(self.snake) - 1].xcor()
+        y = self.snake[len(self.snake) - 1].ycor()
+        s = Turtle()
+        s.penup()
+        s.shape("square")
+        s.width(20)
+        s.color("white")
+        s.setpos(x=x, y=y)
+        self.snake.append(s)
 
     def up(self):
             if not (self.snake[0].heading() == 270):
