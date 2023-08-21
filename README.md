@@ -4,5 +4,6 @@ Learning Python from Scratch
 Started on 31-July-2023
 <ul>
     <li>Got in sync with the days on 13th August 2023</li>
-    <li>Gathering Pace (19th August 2023)</li>
+    <li>Gathering Pace (19th August 2023)</li>    
+    <li>Day 22 and 23 skipped because it is all about turtle</li>    
 </ul>
